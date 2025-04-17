@@ -23,7 +23,7 @@ const getIcon = (icon) => {
     }`,
   };
 
-  return <img loading="lazy" fetchPriority="low" {...imgProps} />;
+  return <img loading="lazy" {...imgProps} />;
 };
 
 const item = {

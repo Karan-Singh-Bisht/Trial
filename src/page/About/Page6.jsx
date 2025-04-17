@@ -21,7 +21,7 @@ const Page6 = () => {
             initial={{ x: -150, y: 30, opacity: 0 }}
             whileInView={{ x: 0, y: 0, opacity: 1 }}
             transition={{ duration: 0.5 }}
-            src="/image/aboutPage/7_1.png"
+            src="/image/7_1.png"
             alt="Award 1"
             className="w-[4rem] sm:w-[5rem] md:w-[6rem] h-auto rounded-md shadow-md"
           />
@@ -29,7 +29,7 @@ const Page6 = () => {
             initial={{ x: 150, y: 30, opacity: 0 }}
             whileInView={{ x: 0, y: 0, opacity: 1 }}
             transition={{ duration: 0.5 }}
-            src="/image/aboutPage/7_2.png"
+            src="/image/7_2.png"
             alt="Award 2"
             className="w-[4rem] sm:w-[5rem] md:w-[6rem] h-auto rounded-md shadow-md"
           />
