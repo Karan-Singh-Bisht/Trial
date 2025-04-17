@@ -45,6 +45,8 @@ const NavButton = ({ x, y, label, link, icon, newTab }) => {
           >
             <NavLink
               variants={item}
+              initial="hidden"
+              animate="show"
               to={link}
               target={newTab ? "_blank" : "_self"}
               className="text-foreground rounded-full flex items-center hover:shadow-glass-sm shadow-glass-inset justify-center bg-background/20 border border-accent/30 border-solid backdrop-blur-[6px]"
@@ -53,7 +55,7 @@ const NavButton = ({ x, y, label, link, icon, newTab }) => {
             >
               <span
                 className="relative rounded-full group-hover:pause hover:text-accent
-         animate-spin-reverse w-24 backdrop-blur-sm h-24 p-1"
+         animate-spin-slow-reverse w-24 backdrop-blur-sm h-24 p-1"
               >
                 {getIcon(icon)}
                 <span className="peer bg-transparent absolute top-0 left-0 w-full h-full"></span>
@@ -67,6 +69,8 @@ const NavButton = ({ x, y, label, link, icon, newTab }) => {
           <div className="w-fit cursor-pointer z-50">
             <NavLink
               variants={item}
+              initial="hidden"
+              animate="show"
               to={link}
               target={newTab ? "_blank" : "_self"}
               className="text-foreground rounded-full flex items-center hover:shadow-glass-sm shadow-glass-inset justify-center bg-background/20 border border-accent/30 border-solid backdrop-blur-[6px]"
