@@ -8,6 +8,7 @@ const Home = () => {
   return (
     <main className="relative w-full h-screen flex justify-center items-center overflow-hidden">
       <img
+        loading="lazy"
         fetchPriority="high"
         src="/background/home-Background.png"
         alt="background"
