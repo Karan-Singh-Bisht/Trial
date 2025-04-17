@@ -22,12 +22,7 @@ const Navigation = () => {
       <ResponsiveComponent>
         {({ size }) => {
           return size && size >= 480 ? (
-            <motion.div
-              variants={container}
-              initial="hidden"
-              whileInView="show"
-              className="flex items-center group justify-center relative animate-spin-slow"
-            >
+            <div className="flex items-center group justify-center relative animate-spin-slow">
               {BtnList.map((btn, index) => {
                 const angleRad = (index * angleIncrement * Math.PI) / 180;
                 const radius = isLarge
@@ -50,15 +45,10 @@ const Navigation = () => {
                   />
                 );
               })}
-            </motion.div>
+            </div>
           ) : (
             <>
-              <motion.div
-                variants={container}
-                initial="hidden"
-                whileInView="show"
-                className="w-full px-2.5 xs:w-max flex space-y-4 flex-col items-start xs:items-center group justify-center relative "
-              >
+              <div className="w-full px-2.5 xs:w-max flex space-y-4 flex-col items-start xs:items-center group justify-center relative ">
                 {BtnList.slice(0, BtnList.length / 2).map((btn, index) => {
                   return (
                     <NavButton
@@ -72,13 +62,8 @@ const Navigation = () => {
                     />
                   );
                 })}
-              </motion.div>
-              <motion.div
-                variants={container}
-                initial="hidden"
-                whileInView="show"
-                className="w-full px-2.5 xs:w-max flex space-y-4 flex-col items-end xs:items-center group justify-center relative "
-              >
+              </div>
+              <div className="w-full px-2.5 xs:w-max flex space-y-4 flex-col items-end xs:items-center group justify-center relative ">
                 {BtnList.slice(BtnList.length / 2, BtnList.length).map(
                   (btn, index) => {
                     return (
@@ -94,7 +79,7 @@ const Navigation = () => {
                     );
                   }
                 )}
-              </motion.div>
+              </div>
             </>
           );
         }}
