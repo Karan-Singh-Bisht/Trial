@@ -25,7 +25,7 @@ export default function Wizard(props) {
         receiveShadow
         geometry={nodes.mesh_0.geometry}
         material={nodes.mesh_0.material}
-        position={[0, 1.1, 0]}
+        position={[0, 0.7, 0]}
       />
     </group>
   );

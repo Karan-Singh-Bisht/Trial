@@ -6,8 +6,8 @@ import ResponsiveComponent from "../ResponsiveComponent";
 import { motion } from "framer-motion";
 
 const container = {
-  hidden: { opacity: 0 },
-  show: { opacity: 1, transition: { staggerChildren: 0.3 } },
+  hidden: { scale: 0 },
+  show: { scale: 1, transition: { staggerChildren: 0.2 } },
 };
 
 const Navigation = () => {
@@ -26,7 +26,7 @@ const Navigation = () => {
               variants={container}
               initial="hidden"
               animate="show"
-              className="flex items-center group justify-center relative animate-spin-slow group hover:pause"
+              className="flex items-center group justify-center relative animate-spin-slow hover:pause"
             >
               {BtnList.map((btn, index) => {
                 const angleRad = (index * angleIncrement * Math.PI) / 180;
@@ -35,7 +35,6 @@ const Navigation = () => {
                   : isMedium
                   ? "calc(30vw - 1rem)"
                   : "calc(40vw - 1rem)";
-                // const radius = "calc(20vw - 1rem)";
                 const x = `calc(${radius} * ${Math.cos(angleRad)})`;
                 const y = `calc(${radius} * ${Math.sin(angleRad)})`;
                 return (

@@ -14,7 +14,7 @@ const Page1 = () => {
       {/* navbar */}
       <div className="w-full h-[12vh] relative flex px-6 sm:px-10 md:px-14 pb-4">
         {/* Back Button */}
-        <div className="w-16 sm:w-[7vw] h-full rounded-b-full flex items-center justify-center bg-white z-10">
+        <div className="w-16 sm:w-[7vw] h-full md:w-[6vw] md:h-[6vw] rounded-b-full flex items-center justify-center bg-white z-10">
           <IoChevronBack
             onClick={() => navigate("/")}
             className="text-xl hover:cursor-pointer sm:text-[2vw]"

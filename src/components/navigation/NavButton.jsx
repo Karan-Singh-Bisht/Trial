@@ -14,7 +14,7 @@ const getIcon = (icon) => {
         home: "1_1.png",
         about: "1_2.png",
         projects: "1_3.png",
-        contact: "1_4.png",
+        connect: "1_4.png",
         github: "1_5.png",
         linkedin: "1_6.png",
         twitter: "1_7.png",
@@ -28,7 +28,7 @@ const getIcon = (icon) => {
 
 const item = {
   hidden: { scale: 0 },
-  show: { scale: 1 },
+  show: { scale: 1, transition: { staggerChildren: 0.3 } },
 };
 
 const NavLink = motion.create(Link);
