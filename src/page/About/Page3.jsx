@@ -3,9 +3,9 @@ import LikeItCard from "../../components/LikeItCard";
 
 const Page3 = () => {
   return (
-    <div className="flex flex-col w-full h-screen overflow-hidden bg-white">
+    <div className="flex flex-col w-full h-screen overflow-hidden bg-black">
       {/* Heading */}
-      <h1 className="font-extrabold text-[5vw] ml-20 px-2 py-12 mb-[3vw] leading-tight text-gray-900">
+      <h1 className="font-extrabold text-[5vw] ml-20 px-2 py-12 mb-[3vw] leading-tight text-white">
         Why you <br /> like it
       </h1>
 

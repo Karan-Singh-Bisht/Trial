@@ -3,7 +3,7 @@ import Footer from "../../components/Footer";
 
 const Page8 = () => {
   return (
-    <div className="flex flex-col gap-6 items-center px-4 py-8 text-center">
+    <div className="flex flex-col gap-6 bg-black text-white items-center px-4 py-8 text-center">
       <h1 className="font-tiltWarp text-[6vw] md:text-[4vw]">
         Access the Power of Ultimate
       </h1>

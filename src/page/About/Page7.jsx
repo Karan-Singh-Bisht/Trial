@@ -2,7 +2,7 @@ import React from "react";
 
 const Page7 = () => {
   return (
-    <div className="w-full flex flex-col gap-10 md:gap-14 items-center p-4 md:p-6">
+    <div className="w-full flex flex-col gap-10 bg-black text-white md:gap-14 items-center p-4 md:p-6">
       <div className="flex flex-col items-center gap-4 text-center">
         <h1 className="text-[8vw] md:text-[4vw] lg:text-[3.5vw] font-tiltWarp">
           Join the Team

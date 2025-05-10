@@ -77,32 +77,32 @@ export const BtnList = [
   {
     label: "XRperiences",
     link: "/xrperience",
-    icon: "projects",
+    icon: "xrperience",
     newTab: false,
   },
   { label: "Connect", link: "/connect", icon: "connect", newTab: false },
   {
     label: "Store",
     link: "/store",
-    icon: "github",
+    icon: "store",
     newTab: false,
   },
   {
     label: "Notice Board",
     link: "/noticeBoard",
-    icon: "linkedin",
+    icon: "noticeBoard",
     newTab: false,
   },
   {
     label: "Community",
     link: "/community",
-    icon: "twitter",
+    icon: "community",
     newTab: false,
   },
   {
     label: "Support",
     link: "/support",
-    icon: "resume",
+    icon: "support",
     newTab: false,
   },
 ];

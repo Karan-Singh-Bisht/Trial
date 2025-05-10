@@ -25,8 +25,8 @@ const Page5 = () => {
   ];
 
   return (
-    <div className="w-full flex flex-col min-h-screen p-6 sm:p-8">
-      <h1 className="text-[8vw] sm:text-[5.5vw] leading-tight font-tiltWarp sm:px-16 py-6 sm:py-8 font-light text-center sm:text-left">
+    <div className="w-full flex flex-col min-h-screen p-6 sm:p-8 bg-black">
+      <h1 className="text-[8vw] sm:text-[5.5vw] leading-tight font-tiltWarp text-white sm:px-16 py-6 sm:py-8 font-light text-center sm:text-left">
         Voices from <br className="hidden sm:block" /> the Chronoverse
       </h1>
 
@@ -45,7 +45,7 @@ const Page5 = () => {
                 alt="image"
               />
             </div>
-            <h4 className="opacity-50 font-madimi text-base sm:text-sm md:text-[0.95rem]">
+            <h4 className="opacity-50 font-madimi text-base text-white sm:text-sm md:text-[0.95rem]">
               {testimonial.text}
             </h4>
           </div>

@@ -1,6 +1,8 @@
 import React from "react";
 import { IoChevronBack } from "react-icons/io5";
 import { useNavigate } from "react-router-dom";
+import XRperienceCard from "../../components/XRperienceCard";
+import XRpresso from "./XRpressoCard";
 
 const Service = () => {
   const navigate = useNavigate();
@@ -46,6 +48,10 @@ const Service = () => {
           <p className="text-sm sm:text-base md:text-lg text-white">
             A Journey Through Time and Beyond
           </p>
+          <div className="flex gap-5">
+            <XRperienceCard />
+            <XRpresso />
+          </div>
         </div>
 
         {/* Footer */}

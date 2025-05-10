@@ -10,11 +10,11 @@ const HorizontalScrollCarousel = () => {
   const x = useTransform(scrollYProgress, [0, 1], ["1%", "-60%"]);
 
   return (
-    <section ref={targetRef} className="relative h-[300vh]">
+    <section ref={targetRef} className="relative bg-black h-[300vh]">
       <div className="sticky top-0 flex h-screen items-center overflow-hidden">
         <motion.div style={{ x }} className="flex items-center gap-4">
           <div className="w-[30vw] p-4">
-            <h1 className="font-bold text-[4vw]">
+            <h1 className="font-bold text-white text-[4vw]">
               Why is Chronoverse Special?
             </h1>
           </div>

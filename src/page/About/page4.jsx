@@ -2,7 +2,7 @@ import React from "react";
 
 const Page4 = () => {
   return (
-    <div className="h-screen w-full flex justify-center items-center bg-white px-4 mt-8">
+    <div className="h-screen w-full flex justify-center items-center bg-black px-4">
       <div className="bg-[#ffecec] rounded-[3vw] w-full flex flex-col items-center justify-center text-center py-12 px-6 gap-8">
         {/* Heading */}
         <h1 className="text-3xl sm:text-4xl lg:text-[2.5vw] font-extrabold">

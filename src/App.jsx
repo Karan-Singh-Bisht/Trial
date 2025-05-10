@@ -2,6 +2,9 @@ import React, { Suspense } from "react";
 import { Route, Routes } from "react-router-dom";
 import Home from "./page/Home/Home";
 import Community from "./page/Community/Community";
+import Xr1 from "./page/XRperience/Xr1";
+import XRpressoCard from "./page/XRperience/XRpressoCard";
+import XRPresso from "./page/XRperience/XRpresso";
 const Connect = React.lazy(() => import("./page/Connect/Connect"));
 const Media = React.lazy(() => import("./page/Media/Media"));
 const Support = React.lazy(() => import("./page/Support/Support"));
@@ -58,6 +61,22 @@ const App = () => {
         element={
           <Suspense fallback={<div>Loading...</div>}>
             <XRperience />
+          </Suspense>
+        }
+      />
+      <Route
+        path="/xrperience/1"
+        element={
+          <Suspense fallback={<div>Loading...</div>}>
+            <Xr1 />
+          </Suspense>
+        }
+      />
+      <Route
+        path="/xrperience/XRpresso"
+        element={
+          <Suspense fallback={<div>Loading...</div>}>
+            <XRPresso />
           </Suspense>
         }
       />

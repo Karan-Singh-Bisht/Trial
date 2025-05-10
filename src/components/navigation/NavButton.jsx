@@ -7,18 +7,18 @@ import { motion } from "framer-motion";
 const getIcon = (icon) => {
   const imgProps = {
     alt: icon,
-    className: "w-24 h-24 object-contain object-center",
+    className: "w-24 h-24 object-cover object-center",
     strokeWidth: 1.5,
     src: `/HomePage/${
       {
         home: "1_1.png",
         about: "1_2.png",
-        projects: "1_3.png",
+        xrperience: "1_3.png",
         connect: "1_4.png",
-        github: "1_5.png",
-        linkedin: "1_6.png",
-        twitter: "1_7.png",
-        resume: "1_8.png",
+        store: "1_5.png",
+        noticeBoard: "1_6.png",
+        community: "1_7.png",
+        support: "1_8.png",
       }[icon] || "1_1.png"
     }`,
   };

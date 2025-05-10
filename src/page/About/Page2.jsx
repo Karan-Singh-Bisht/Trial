@@ -7,8 +7,8 @@ import { CiGlobe } from "react-icons/ci";
 
 const Page2 = () => {
   return (
-    <div className="flex flex-col items-center w-full p-4">
-      <h1 className="font-extrabold text-3xl md:text-4xl lg:text-[5vw] text-center mb-10">
+    <div className="flex flex-col items-center w-full p-4 bg-black">
+      <h1 className="font-extrabold text-3xl md:text-4xl lg:text-[5vw] text-white text-center my-10">
         Highlights of us
       </h1>
 

@@ -2,14 +2,14 @@ import { motion } from "framer-motion";
 
 const Page6 = () => {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen px-4 sm:px-6 md:px-8">
+    <div className="flex flex-col items-center justify-center bg-black min-h-screen px-4 sm:px-6 md:px-8">
       <motion.div
         className="w-full flex gap-5 flex-col items-center justify-center min-h-screen p-4 sm:p-6 md:p-8"
         initial={{ opacity: 0, scale: 0 }}
         whileInView={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.5 }}
       >
-        <h2 className="text-[6vw] sm:text-[4vw] md:text-[3vw] font-bold text-gray-900 text-center">
+        <h2 className="text-[6vw] text-white sm:text-[4vw] md:text-[3vw] font-bold text-center">
           Bulletin Board
         </h2>
         <p className="text-gray-500 my-2 text-center">

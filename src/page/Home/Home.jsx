@@ -9,11 +9,17 @@ const Home = () => {
   return (
     <main className="relative w-full h-screen flex flex-col justify-center items-center overflow-hidden">
       <div className="absolute top-0 left-4 sm:left-6 md:left-10 ml-4 rounded-b-full flex items-center justify-center w-[16vw] sm:w-[10vw] md:w-[6vw] h-[16vw] sm:h-[10vw] md:h-[6vw] bg-white shadow-md z-50">
-        <img
-          src="/HomePage/Logo.png"
-          alt="logo"
-          className="w-[10vw] sm:w-[6vw] md:w-[4vw] h-[10vw] sm:h-[6vw] md:h-[4vw] rounded-full object-cover"
-        />
+        <a
+          target="_blank"
+          href="https://harsar.in"
+          className="hover:cursor-pointer"
+        >
+          <img
+            src="/HomePage/Logo.png"
+            alt="logo"
+            className="w-[10vw] sm:w-[6vw] md:w-[4vw] h-[10vw] sm:h-[6vw] md:h-[4vw] rounded-full object-cover"
+          />
+        </a>
       </div>
 
       <img

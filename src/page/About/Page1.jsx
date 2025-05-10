@@ -9,7 +9,10 @@ const Page1 = () => {
   return (
     <div
       className="w-full bg-cover bg-center"
-      style={{ backgroundImage: "url('/image/1_1.png')" }}
+      style={{
+        backgroundImage: `linear-gradient(to top right, rgba(236, 208, 255, 0.8), rgba(255, 192, 203, 0.6), rgba(255, 228, 225, 0.7)), url('/image/1_1.png')`,
+        backgroundBlendMode: "overlay",
+      }}
     >
       {/* navbar */}
       <div className="w-full h-[12vh] relative flex px-6 sm:px-10 md:px-14 pb-4">
